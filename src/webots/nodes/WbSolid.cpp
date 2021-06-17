@@ -2418,6 +2418,7 @@ void WbSolid::resetSingleSolidPhysics() {
         dJointSetBallParam(mJoint, dParamVel2, 0.0);
         dJointSetBallParam(mJoint, dParamFMax3, 0.0);
         dJointSetBallParam(mJoint, dParamVel3, 0.0);
+        break;
       default:  // only the above joint types are currently implemented in Webots
         break;
     }
